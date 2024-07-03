@@ -4,3 +4,9 @@ rancher-aks-operator-crd:
   - 103.3.0+up1.2.3-rc.2
 rancher-webhook:
   - 103.0.7+up0.4.8-rc1
+fleet:
+  - 999.9.9+up9.9.9
+fleet-crd:
+  - 999.9.9+up9.9.9
+fleet-agent:
+  - 999.9.9+up9.9.9
