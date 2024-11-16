@@ -1,12 +1,12 @@
 fleet:
   - 105.0.0+up0.11.0
-  - 105.0.1+up0.11.1
+  - 999.9.9+up9.9.9
 fleet-agent:
   - 105.0.0+up0.11.0
-  - 105.0.1+up0.11.1
+  - 999.9.9+up9.9.9
 fleet-crd:
   - 105.0.0+up0.11.0
-  - 105.0.1+up0.11.1
+  - 999.9.9+up9.9.9
 harvester-cloud-provider:
   - 105.0.0+up0.2.6
 harvester-csi-driver:
