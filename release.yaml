@@ -1,9 +1,9 @@
 fleet:
-  - 105.0.2+up0.11.2
+  - 999.9.9+up9.9.9
 fleet-agent:
-  - 105.0.2+up0.11.2
+  - 999.9.9+up9.9.9
 fleet-crd:
-  - 105.0.2+up0.11.2
+  - 999.9.9+up9.9.9
 rancher-aks-operator:
   - 105.1.0+up1.10.1
 rancher-aks-operator-crd:
