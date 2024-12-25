@@ -4,3 +4,9 @@ rancher-cis-benchmark:
   - 105.1.0+up7.1.1
 rancher-cis-benchmark-crd:
   - 105.1.0+up7.1.1
+fleet:
+  - 999.9.9+up9.9.9
+fleet-crd:
+  - 999.9.9+up9.9.9
+fleet-agent:
+  - 999.9.9+up9.9.9
