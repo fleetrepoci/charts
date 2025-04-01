@@ -1014,6 +1014,28 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
       catalog.cattle.io/release-name: fleet
     apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-04-01T13:12:24.891806044Z"
+    description: Fleet Controller - GitOps at Scale
+    digest: 45d171e3393cdc40dd6ab8c58f585d938368a06c4d9f7781fae48d64cc43ff09
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet
+    urls:
+    - assets/fleet/fleet-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/auto-install: fleet-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.33.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: clusters.fleet.cattle.io/v1alpha1
+      catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
+      catalog.cattle.io/release-name: fleet
+    apiVersion: v2
     appVersion: 0.12.0
     created: "2025-03-24T14:24:00.784979714Z"
     description: Fleet Controller - GitOps at Scale
@@ -2086,6 +2108,25 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
       catalog.cattle.io/release-name: fleet-agent
     apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-04-01T13:12:24.90719008Z"
+    description: Fleet Agent - GitOps at Scale
+    digest: 9d4b58b2452c3416ac266d099082400a37ab03938b164a66b56160d6356cec2f
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-agent
+    urls:
+    - assets/fleet-agent/fleet-agent-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.33.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
+      catalog.cattle.io/release-name: fleet-agent
+    apiVersion: v2
     appVersion: 0.12.0
     created: "2025-03-24T14:24:05.467831221Z"
     description: Fleet Agent - GitOps at Scale
@@ -2913,6 +2954,23 @@ entries:
     - assets/fleet-agent/fleet-agent-101.0.0+up0.5.0.tgz
     version: 101.0.0+up0.5.0
   fleet-crd:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/release-name: fleet-crd
+    apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-04-01T13:12:24.984645395Z"
+    description: Fleet CustomResourceDefinitions
+    digest: 54dd0d0b018849f9b2b7c5fb4c7728c23a66e59874a001e40b51b9235a0e8f43
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-crd
+    urls:
+    - assets/fleet-crd/fleet-crd-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
@@ -25403,25 +25461,6 @@ entries:
     - assets/rancher-vsphere-csi/rancher-vsphere-csi-101.0.0+up2.5.1-rancher1.tgz
     version: 101.0.0+up2.5.1-rancher1
   rancher-webhook:
-  - annotations:
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/hidden: "true"
-      catalog.cattle.io/kube-version: < 1.33.0-0
-      catalog.cattle.io/managed: "true"
-      catalog.cattle.io/namespace: cattle-system
-      catalog.cattle.io/os: linux
-      catalog.cattle.io/permits-os: linux,windows
-      catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
-      catalog.cattle.io/release-name: rancher-webhook
-    apiVersion: v2
-    appVersion: 0.7.0
-    created: "2025-03-27T17:25:15.773647-07:00"
-    description: ValidatingAdmissionWebhook for Rancher types
-    digest: f3577ac1775443da2a09690136a4e558f9c98a409405e015dc3d1af1e68ab0ca
-    name: rancher-webhook
-    urls:
-    - assets/rancher-webhook/rancher-webhook-106.0.0+up0.7.0.tgz
-    version: 106.0.0+up0.7.0
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
