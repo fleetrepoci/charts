@@ -1,9 +1,9 @@
 fleet:
-  - 106.1.0+up0.12.2
+  - 999.9.9+up9.9.9
 fleet-agent:
-  - 106.1.0+up0.12.2
+  - 999.9.9+up9.9.9
 fleet-crd:
-  - 106.1.0+up0.12.2
+  - 999.9.9+up9.9.9
 prometheus-federator:
   - 106.0.1-rc.3+up3.0.1-rc.4
 rancher-aks-operator:
