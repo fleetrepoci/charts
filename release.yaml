@@ -42,10 +42,13 @@ rancher-eks-operator-crd:
   - 105.6.0+up1.10.6
 fleet:
   - 105.1.2+up0.11.9
+  - 999.9.9+up9.9.9
 fleet-agent:
   - 105.1.2+up0.11.9
+  - 999.9.9+up9.9.9
 fleet-crd:
   - 105.1.2+up0.11.9
+  - 999.9.9+up9.9.9
 rancher-supportability-review:
   - 106.0.0+up0.1.0
   - 106.0.0+up0.1.1
