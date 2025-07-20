@@ -5,11 +5,11 @@ elemental-crd:
   - 107.1.0+up1.7.3
   - 107.0.0+up1.6.9
 fleet:
-  - 107.0.0+up0.13.0-rc.3
+  - 999.9.9+up9.9.9
 fleet-agent:
-  - 107.0.0+up0.13.0-rc.3
+  - 999.9.9+up9.9.9
 fleet-crd:
-  - 107.0.0+up0.13.0-rc.3
+  - 999.9.9+up9.9.9
 harvester-cloud-provider:
   - 107.0.0+up0.2.10
 harvester-csi-driver:
