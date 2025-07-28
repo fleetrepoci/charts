@@ -1209,6 +1209,28 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
       catalog.cattle.io/release-name: fleet
     apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-07-28T13:18:42.3010179Z"
+    description: Fleet Controller - GitOps at Scale
+    digest: 633cd1f913197318743ab167fe9c409968c3d959f47d90b5d9a813458afc1012
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet
+    urls:
+    - assets/fleet/fleet-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/auto-install: fleet-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.34.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: clusters.fleet.cattle.io/v1alpha1
+      catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
+      catalog.cattle.io/release-name: fleet
+    apiVersion: v2
     appVersion: 0.13.0
     created: "2025-07-23T15:49:00.731991224Z"
     description: Fleet Controller - GitOps at Scale
@@ -2593,6 +2615,25 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
       catalog.cattle.io/release-name: fleet-agent
     apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-07-28T13:18:42.322136764Z"
+    description: Fleet Agent - GitOps at Scale
+    digest: 245dba117b6cb6f13c0197bf63241701f8b87ca21f481f1b1947c15d3501d88e
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-agent
+    urls:
+    - assets/fleet-agent/fleet-agent-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.34.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
+      catalog.cattle.io/release-name: fleet-agent
+    apiVersion: v2
     appVersion: 0.13.0
     created: "2025-07-23T15:49:00.753732353Z"
     description: Fleet Agent - GitOps at Scale
@@ -3686,6 +3727,23 @@ entries:
     - assets/fleet-agent/fleet-agent-101.0.0+up0.5.0.tgz
     version: 101.0.0+up0.5.0
   fleet-crd:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/release-name: fleet-crd
+    apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-07-28T13:18:42.395168056Z"
+    description: Fleet CustomResourceDefinitions
+    digest: d34367e618546a2b17d40949c4ab42574c6c20ac94392dbed6ddb2c4364fc6eb
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-crd
+    urls:
+    - assets/fleet-crd/fleet-crd-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
@@ -16516,32 +16574,6 @@ entries:
       catalog.cattle.io/type: cluster-tool
       catalog.cattle.io/ui-component: rancher-compliance
     apiVersion: v1
-    appVersion: v1.0.0-rc.5
-    created: "2025-07-23T17:45:02.073810135+05:30"
-    description: The compliance-operator enables running security scans on a kubernetes
-      cluster
-    digest: 6d4a2d717d7cceab153faba75f686b1fa96f3378aba9d6aac38136ba6a22123e
-    icon: file://assets/logos/rancher-compliance.svg
-    keywords:
-    - security
-    name: rancher-compliance
-    urls:
-    - assets/rancher-compliance/rancher-compliance-107.0.0+up1.0.0-rc.5.tgz
-    version: 107.0.0+up1.0.0-rc.5
-  - annotations:
-      catalog.cattle.io/auto-install: rancher-compliance-crd=match
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/display-name: Rancher Compliance
-      catalog.cattle.io/kube-version: '>= 1.31.0-0 < 1.34.0-0'
-      catalog.cattle.io/namespace: compliance-operator-system
-      catalog.cattle.io/os: linux
-      catalog.cattle.io/permits-os: linux,windows
-      catalog.cattle.io/provides-gvr: compliance.cattle.io.clusterscans/v1
-      catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
-      catalog.cattle.io/release-name: rancher-compliance
-      catalog.cattle.io/type: cluster-tool
-      catalog.cattle.io/ui-component: rancher-compliance
-    apiVersion: v1
     appVersion: v1.0.0
     created: "2025-07-28T11:48:24.364447175+05:30"
     description: The compliance-operator enables running security scans on a kubernetes
@@ -16555,20 +16587,6 @@ entries:
     - assets/rancher-compliance/rancher-compliance-107.0.0+up1.0.0.tgz
     version: 107.0.0+up1.0.0
   rancher-compliance-crd:
-  - annotations:
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/hidden: "true"
-      catalog.cattle.io/namespace: compliance-operator-system
-      catalog.cattle.io/release-name: rancher-compliance-crd
-    apiVersion: v1
-    created: "2025-07-23T17:45:02.074324884+05:30"
-    description: Installs the CRDs for rancher-compliance.
-    digest: 1840ddb8adbe66837e3e6326ce1ea394ede9540c8dfbbfc46c45237a616b039f
-    name: rancher-compliance-crd
-    type: application
-    urls:
-    - assets/rancher-compliance-crd/rancher-compliance-crd-107.0.0+up1.0.0-rc.5.tgz
-    version: 107.0.0+up1.0.0-rc.5
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
