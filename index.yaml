@@ -1279,6 +1279,28 @@ entries:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/experimental: "true"
       catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.32.0-0 < 1.35.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: clusters.fleet.cattle.io/v1alpha1
+      catalog.cattle.io/rancher-version: '>= 2.13.0-0 < 2.14.0-0'
+      catalog.cattle.io/release-name: fleet
+    apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-10-13T13:17:48.337356818Z"
+    description: Fleet Controller - GitOps at Scale
+    digest: a29be5ee19a04d9797521eb5fbe2b943eedbadd31ee7c26059ef49841b438e60
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet
+    urls:
+    - assets/fleet/fleet-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/auto-install: fleet-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/hidden: "true"
       catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.34.0-0'
       catalog.cattle.io/namespace: cattle-fleet-system
       catalog.cattle.io/os: linux
@@ -2906,6 +2928,25 @@ entries:
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.32.0-0 < 1.35.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.13.0-0 < 2.14.0-0'
+      catalog.cattle.io/release-name: fleet-agent
+    apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-10-13T13:17:48.363230166Z"
+    description: Fleet Agent - GitOps at Scale
+    digest: ba5a03043ce35e73ba37cc5a0bb779a7d58edbdf24cf39f83bd7821c5f56c6f7
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-agent
+    urls:
+    - assets/fleet-agent/fleet-agent-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
       catalog.cattle.io/kube-version: '>= 1.28.0-0 < 1.34.0-0'
       catalog.cattle.io/namespace: cattle-fleet-system
       catalog.cattle.io/os: linux
@@ -4215,6 +4256,23 @@ entries:
     - assets/fleet-agent/fleet-agent-101.0.0+up0.5.0.tgz
     version: 101.0.0+up0.5.0
   fleet-crd:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/release-name: fleet-crd
+    apiVersion: v2
+    appVersion: 9.9.9
+    created: "2025-10-13T13:17:48.44911245Z"
+    description: Fleet CustomResourceDefinitions
+    digest: d69cdaba10088cb71d508d76d665d1af886d9e1399f3a33febdb9af5d1217b6b
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-crd
+    urls:
+    - assets/fleet-crd/fleet-crd-999.9.9+up9.9.9.tgz
+    version: 999.9.9+up9.9.9
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
@@ -13675,38 +13733,6 @@ entries:
     urls:
     - assets/prometheus-federator/prometheus-federator-107.1.1+up4.2.1-rc.2.tgz
     version: 107.1.1+up4.2.1-rc.2
-  - annotations:
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/display-name: Prometheus Federator
-      catalog.cattle.io/kube-version: '>= 1.31.0-0 < 1.34.0-0'
-      catalog.cattle.io/namespace: cattle-monitoring-system
-      catalog.cattle.io/os: linux,windows
-      catalog.cattle.io/permits-os: linux,windows
-      catalog.cattle.io/provides-gvr: helm.cattle.io.projecthelmchart/v1alpha1
-      catalog.cattle.io/rancher-version: '>= 2.12.0-0 < 2.13.0-0'
-      catalog.cattle.io/release-name: prometheus-federator
-    apiVersion: v2
-    appVersion: v4.2.1-rc.1
-    created: "2025-10-03T14:49:56.969719711-03:00"
-    description: Prometheus Federator - installs rancher-project-monitoring in project
-      namespaces.
-    digest: eea66a704e29cb09a0e9f1f67eecff8c068755925cc81e58c75af8037695c450
-    icon: file://assets/logos/prometheus-federator.svg
-    keywords:
-    - prometheus
-    - monitoring
-    - project-monitoring
-    maintainers:
-    - email: alexandre.lamarre@suse.com
-      name: Alexandre
-    - email: dan.pock@suse.com
-      name: Dan
-    - email: julia.suriano@suse.com
-      name: Julia
-    name: prometheus-federator
-    urls:
-    - assets/prometheus-federator/prometheus-federator-107.1.1+up4.2.1-rc.1.tgz
-    version: 107.1.1+up4.2.1-rc.1
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/display-name: Prometheus Federator
