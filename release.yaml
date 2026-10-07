@@ -20,7 +20,7 @@ fleet:
   - 110.0.0+up0.16.0-alpha.2
   - 110.0.0+up0.16.0-alpha.1
   - 110.0.0+up0.15.1-beta.1
-  - 110.0.3+up0.16.3-alpha.1
+  - 999.9.9+up9.9.9
 fleet-agent:
   - 110.0.2+up0.16.2-rc.2
   - 110.0.2+up0.16.2-rc.1
@@ -43,7 +43,7 @@ fleet-agent:
   - 110.0.0+up0.16.0-alpha.2
   - 110.0.0+up0.16.0-alpha.1
   - 110.0.0+up0.15.1-beta.1
-  - 110.0.3+up0.16.3-alpha.1
+  - 999.9.9+up9.9.9
 fleet-crd:
   - 110.0.2+up0.16.2-rc.2
   - 110.0.2+up0.16.2-rc.1
@@ -66,7 +66,7 @@ fleet-crd:
   - 110.0.0+up0.16.0-alpha.2
   - 110.0.0+up0.16.0-alpha.1
   - 110.0.0+up0.15.1-beta.1
-  - 110.0.3+up0.16.3-alpha.1
+  - 999.9.9+up9.9.9
 rancher-eks-operator:
   - 110.3.0+up1.15.3-rc.1
 rancher-eks-operator-crd:
